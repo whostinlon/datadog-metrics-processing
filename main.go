@@ -235,7 +235,7 @@ func fetchData(numberOfDaysBack int, offerID string) (map[string]interface{}, er
 }
 
 func main() {
-	result, error := fetchData(7, "0fd8cf46-d029-11ea-a072-340cee6a52b6")
+	result, error := fetchAllData(7)
 	if error != nil {
 		fmt.Println(error)
 	} else {

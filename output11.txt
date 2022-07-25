@@ -1,1 +1,0 @@
-map[failure:6827 payflowConversion:68.20066141878989 success:14642 sum:21469]
